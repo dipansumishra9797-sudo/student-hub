@@ -116,7 +116,7 @@ a:focus-visible {
 .nav-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
