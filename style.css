@@ -75,8 +75,12 @@ a:focus-visible {
 .btn-light {
   background-color: #ffffff;
   color: #2b44d6;
-  animation: anime 1s infinite alternate linear 1s;
   box-shadow: 0 0 15px skyblue;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .btn-light {
+    animation: anime 1s infinite alternate linear 1s;
+  }
 }
 @keyframes anime {
   from{
